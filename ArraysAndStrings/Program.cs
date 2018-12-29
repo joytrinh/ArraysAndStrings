@@ -10,6 +10,10 @@ namespace ArraysAndStrings
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Please type a string to check ");
+            string s = Console.ReadLine();
+            IsUnique.CheckUnique(s);
+            Console.ReadLine();
         }
-    }
+    }    
 }
